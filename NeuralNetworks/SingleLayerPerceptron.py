@@ -5,7 +5,7 @@ import random
 class SinglePerceptron(object):
     def __init__(self):
         self.learning = 0.1
-        self.epoch = 20
+        self.epoch = 200
         self.input = np.array([
             [0, 0, 0, 0],  
             [0, 1, 0, 0],  
