@@ -39,3 +39,15 @@ To run the code, clone this repository to your local machine and follow the step
     ```bash
     python NeuralNetworks\SingleLayerPerceptron.py
     ```
+### Second Paper - Backpropogation
+
+- **Paper:** [Learning representations by back-propagating errors ](https://www.nature.com/articles/323533a0.pdf )  
+- **File:** `NeuralNetworks\BackPropogationPaper\XORBackpropogation.py`  
+- **Run:** 
+
+    ```bash
+    python NeuralNetworks\BackPropogationPaper\XORBackpropogation.py
+    ```
+
+
+
