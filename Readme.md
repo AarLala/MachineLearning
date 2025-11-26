@@ -23,7 +23,7 @@ To run the code, clone this repository to your local machine and follow the step
 3. **Install dependencies**:
 
     ```bash
-    pip install numpy
+    pip install numpy torch
     ```
 
 ---
@@ -48,7 +48,7 @@ To run the code, clone this repository to your local machine and follow the step
     ```bash
     python NeuralNetworks\BackPropogationPaper\XORBackpropogation.py
     ```
-### Second Paper - Backpropogation
+### Third Paper  - CNN
 
 
 
