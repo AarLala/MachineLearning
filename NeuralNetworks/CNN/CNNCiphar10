@@ -81,8 +81,19 @@ def train():
 
     return runningLoss / len(trainloader)
 
+def test():
+    runningLoss = 0.0
+    for images, labels in testloader:
+        images,labels = images.to(device),labels.to(device)
+        output = model(images)
+        loss = criterion(output,labels)
+        runningLoss +=loss.item()
+    return runningLoss / len(trainloader)
+
+
 for i in range(epochs):
-    loss=train()
-    print(f"Epoch {i+1}/{epochs}  Loss: {loss:.4f}")
+    trainloss=train()
+    testloss = test()
+    print(f"Epoch {i+1}/{epochs}  TrainLoss: {trainloss:.4f} TestLoss: {testloss:.4f}")
 
 
